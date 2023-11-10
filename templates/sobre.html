@@ -1,0 +1,33 @@
+
+{% extends 'modelo.html' %}
+{% block conteudo %}
+
+
+
+<div id="postagem">
+    {% if not(posts) %}
+
+    <div class="game-board">
+
+        <img src="../static/img/clouds.png " class="clouds">
+        <img src="../static/img/mario.gif" class="mario"> 
+        <img src="../static/img/pipe.png" class="pipe">
+        
+    </div>
+    <h2 class="not_posts">Não há postagens nesse Blog!</h2>
+    {% else %}
+    {% for post in posts %}
+    <div class="boxpost">
+            {% if login %}
+            <a href="/editar/{{ post['id'] }}" class="editar">Editar</a>
+            <a href="/excluir/{{ post['id'] }}" class="excluir" class="" onclick="return confirm('Você tem certeza de que deseja excluir essa postagem?')"></a>
+        {% endif %}
+        <h2>{{ post['titulo'] }}</h2>
+        <p>{{ post['conteudo'] }}</p>
+    </div>
+    {% endfor %}
+    {% endif %}
+</div>
+{% endblock %}
+
+
