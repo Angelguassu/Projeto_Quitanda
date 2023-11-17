@@ -1,145 +1,56 @@
-{% extends 'modelo.html' %}
+{% extends 'modelo.html'%}
 {% block conteudo %}
-    
-    <main>
-      <div class="container_div">
-        <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner ">
-          <div class="carousel-item active">
-            <img src="../static/img/imagem1.jpeg" class="d-block w-100" >
+   
+    <div class="container-fluid p-0">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
-          <div class="carousel-item">   
-            <img src="../static/img/imagem2.jpeg" class="d-block w-100" >
-          </div>
-          <div class="carousel-item">
-            <img src="../static/img/imagem3.jpeg" class="d-block w-100" >
-          </div>  
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-
-
-      <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              <i><strong>Variedade de produtos!</strong></i>
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-             Hoje, a Quitanda do Zé oferece uma ampla variedade de produtos, que vão além de frutas e verduras frescas. Eles também vendem produtos caseiros, como compotas, doces, geleias e pães artesanais, muitos dos quais são feitos a partir de receitas de família transmitidas de geração em geração. 
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/static/img/fruta.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/static/img/slide02.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/static/img/slide03.jpg "class="d-block w-100 "alt="...">
             </div>
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              <i><strong>Apoiamos agricultores locais!</strong></i>
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              A Quitanda do Zé é conhecida por apoiar agricultores locais, comprando grande parte de seus produtos diretamente de pequenas fazendas da região. Isso não apenas promove a economia local, mas também garante a frescura e a qualidade dos produtos que eles oferecem aos clientes.
-
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              <i><strong>Melhor atendimento ao cliente!</strong></i>
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              Além de sua presença na feira municipal, a Quitanda do Zé também lançou um programa de entregas em domicílio, facilitando o acesso de seus clientes aos produtos frescos, mesmo quando não podem visitar a barraca na feira. Esse serviço se tornou ainda mais importante durante períodos de restrições devido a pandemias, tornando a Quitanda do Zé uma fonte confiável de alimentos frescos para a comunidade.
-            </div>
-          </div>
-        </div>
-        <div class="conteiner_2">
-          <br>
-          <br>  
-          <h3>História da Quitanda do Zé</h3>
-          <br>
-          <p>A Quitanda do Zé tem suas raízes na simplicidade e no empreendedorismo de José Carlos Pereiras, um homem do interior paulista que decidiu compartilhar os sabores da terra com sua comunidade. A história da Quitanda do Zé é um exemplo de perseverança e crescimento gradual.</p>
-          <p>José Carlos Pereiras cresceu em uma família de agricultores e aprendeu desde cedo a importância da agricultura e do cultivo de alimentos. Ele trouxe essa paixão e conhecimento para a Quitanda do Zé, garantindo que os produtos oferecidos fossem sempre frescos e de alta qualidade.</p>
-          <p>Ao longo dos anos, a Quitanda do Zé não parou de inovar. Eles introduziram programas de fidelidade, serviços de entrega em domicílio e até mesmo a venda de produtos orgânicos. Essas iniciativas não apenas mantiveram o negócio relevante, mas também demonstraram o compromisso contínuo com a satisfação do cliente.</p>
-          <p> A Quitanda do Zé sempre teve um profundo compromisso com a comunidade local. Além de apoiar agricultores locais, eles também realizaram eventos beneficentes e campanhas para ajudar aqueles em necessidade na região. Isso criou um senso de união e confiança entre a Quitanda do Zé e seus clientes.</p>
-          <p>Ao longo dos anos, a Quitanda do Zé envolveu a família de Zé, incluindo seus filhos e netos, na operação do negócio. Essa passagem de conhecimento e tradição assegura que os valores fundamentais da Quitanda do Zé sejam preservados para as gerações futuras.</p>
-
-
         </div>
       </div>
-    </div>
-
-    <div class="conteiner_3">
-        <div class="text">
-
-          <p>ㅤCom o tempo, a demanda por suas mercadorias cresceu, e Zé tomou uma decisão audaciosa. Ele montou uma modesta barraca na feira municipal, onde a Quitanda do Zé logo se tornou uma parada obrigatória para os moradores em busca de alimentos frescos e saborosos. A qualidade dos produtos e o atendimento caloroso fizeram com que a Quitanda do Zé se destacasse.</p>
-          <p>ㅤÀ medida que o tempo passava, Zé e sua equipe mantiveram-se fiéis a seus valores de oferecer produtos de alta qualidade e um atendimento acolhedor. Isso atraiu cada vez mais clientes leais.
-          </p>
-          <br>
-          <div class="line"></div>
-          <br>
-          <br>
-          <h3>ㅤMissão</h3>
-          <br>
-          <p>ㅤA missão da Quitanda do Zé é simples e clara: fornecer alimentos frescos, saudáveis e saborosos a preços acessíveis. Eles se comprometem a atender as necessidades de seus clientes com produtos de qualidade superior e a criar um ambiente acolhedor que celebre a comunidade local.
-          </p>
-          <br>
-          <div class="line"></div>
-          <br>
-          <br>
-          <h3>ㅤValores</h3>
-          <h6>ㅤㅤㅤA Quitanda do Zé se baseia em valores sólidos:</h6>
-          <br>
-          <p><li>Qualidade: Eles se esforçam para fornecer produtos da mais alta qualidade, cultivados localmente sempre que possível.</li>
-            <li>Honestidade: A transparência e a integridade estão no centro de tudo o que fazem.</li>
-            <li>Comunidade: Eles são parte da comunidade e se dedicam a apoiá-la.</li>
-            <li>Atendimento ao Cliente: Cada cliente é um amigo, e eles tratam todos com carinho e respeito.</li>
-            <li>Sustentabilidade: Comprometem-se a adotar práticas sustentáveis em suas operações.</li>
-            <br>
-            Hoje, a Quitanda do Zé é uma parte essencial da vida da comunidade local. Zé e sua equipe continuam a trabalhar com paixão e dedicação, trazendo a essência do campo para a cidade.   
-          </p>
-
-
-        </div>
-        
-
-        <div class="image">
-
-          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
-                <img src="../static/img/horta1.jfif" class="d-block w-100" alt="...">
+      <div class="shop"  style="margin-top: 25px;">
+        {% if not produtos %}
+          <h1 class="display-5 text-center text-danger">Estamos preparando as promoções desta semana...</h1>
+          <h2 class="display-4 text-center text-success">Retorne em breve.</h2>
+            {% else %}
+          <div class="container">
+              <div class="row g-3">
+                  {% for produto in produtos %}
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-lx-2">
+                      <div class="card text-center bg-light">
+                          <img src="../static/img/produtos/{{ produto['img_prod'] }}" class="card-img-top" />
+                          <div class="card-header fs-3 text-danger">R$ {{ produto['preco_prod'] }}</div>
+                          <div class="card-body">
+                              <h5 class="card-title">{{ produto['nome_prod']}}</h5>
+                              <p class="card-text truncar-31">{{ produto['desc_prod'] }}</p>
+                          </div>
+                      </div>
+                  </div>
+                  {% endfor %}
               </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="../static/img/horta2.jfif" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="../static/img/horta3.jfif" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-
           </div>
+          {% endif %}
       </div>
-
-    </main>
-
-  {% endblock %}
+{% endblock %}

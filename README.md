@@ -1,3 +1,5 @@
+
+
 # Projeto Integrador: CRUD Básico em Programação Web
 
 
@@ -10,11 +12,19 @@ Este é um projeto integrador entre as disciplinas de Programação Web Front-En
 ## Tecnologias Utilizadas
 
 
-- Git: Sistema de controle de versão para gerenciar o código do projeto.
-- GitHub: Plataforma online para hospedar o repositório do projeto e facilitar a colaboração.
-- Flask: Framework web em Python para o desenvolvimento do lado do servidor.
-- HTML e CSS (Bootstrap): Linguagens de marcação e estilização para criar o front-end do aplicativo.
-- SQL (Banco de Dados): Utilizaremos um banco de dados SQL para armazenar e recuperar informações sobre os produtos. Isso inclui a criação de tabelas, inserção de dados e consulta de informações.
+- ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) : Sistema de controle de versão para gerenciar o código do projeto.
+<br>
+
+- ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) : Plataforma online para hospedar o repositório do projeto e facilitar a colaboração.
+<br>
+
+- ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) : Framework web em Python para o desenvolvimento do lado do servidor.
+<br>
+
+- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) : Linguagens de marcação e estilização para criar o front-end do aplicativo.
+<br>
+
+- ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)  (Banco de Dados): Utilizaremos um banco de dados SQL para armazenar e recuperar informações sobre os produtos. Isso inclui a criação de tabelas, inserção de dados e consulta de informações.
 
 
 ## Funcionalidades Principais
@@ -42,7 +52,7 @@ Para configurar e executar o projeto em sua máquina local, siga estas etapas:
 
 
 1. **Clone o Repositório**:
-   1. git clone https://github.com/seu-usuario/projeto-quintanda.git
+   1. git clone https://github.com/CaioPazc/ProjetoQuitandaze.git
    2. cd projeto-quintanda
 2. **Instale Dependências**:
    1. Em seu console digite o comando: 'pip install Flask'
@@ -75,7 +85,7 @@ Contribuições são bem-vindas. Sinta-se à vontade para fazer um fork do repos
 
 ## Contato
 
--[Angel GUassú]: Autor do Prejeto
+- [Caio Paz]: Autor do Projeto
 
 - [Rafael Ribas]: Instrutor de Programação Web Front-End.
 
@@ -86,5 +96,5 @@ Contribuições são bem-vindas. Sinta-se à vontade para fazer um fork do repos
 ---
 
 
-© [2023] Sesi Senai Itapeva 
- 
+© [2023] Sesi Senai Itapeva
+
