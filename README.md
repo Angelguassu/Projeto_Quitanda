@@ -85,7 +85,7 @@ Contribuições são bem-vindas. Sinta-se à vontade para fazer um fork do repos
 
 ## Contato
 
-- [Caio Paz]: Autor do Projeto
+- [Angel]: Autor do Projeto
 
 - [Rafael Ribas]: Instrutor de Programação Web Front-End.
 
